@@ -158,6 +158,11 @@ minetest.register_craft({
 	}
 })
 
+minetest.register_craftitem("laptop:FDD", {
+	description = 'Floppy Drive',
+	inventory_image = "laptop_floppydrive.png",
+})
+
 minetest.register_craftitem("laptop:HDD", {
 	description = 'Hard Drive',
 	inventory_image = "laptop_harddrive.png",
